@@ -1,3 +1,5 @@
+package lab1;
+
 
 import java.sql.SQLException;
 import java.util.logging.Level;
