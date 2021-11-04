@@ -1,0 +1,17 @@
+Thu Nov 04 13:53:30 CET 2021 : Serwer sieciowy Apache Derby - 10.8.1.2 - (1095077) uruchomiony i gotowy do zaakceptowania po³¹czeñ na porcie 1527 w {3} 
+----------------------------------------------------------------
+Thu Nov 04 13:53:33 CET 2021:
+ Uruchamianie wersji The Apache Software Foundation - Apache Derby - 10.8.1.2 - (1095077) systemu Derby: instancja a816c00e-017c-eb02-ef99-000036dd5ff4
+w katalogu bazy danych D:\Dane\Micha³\Studia\Semestr 5\JEET\db\db  sun.misc.Launcher$AppClassLoader@1d44bcfa 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_281-b09
+user.dir=D:\Programy\GlassFish\javadb
+derby.system.home=D:\Dane\Micha³\Studia\Semestr 5\JEET\db
+Uruchomiono program ³aduj¹cy klasê bazy danych - derby.database.classpath=''
+----------------------------------------------------------------
+Thu Nov 04 14:47:13 CET 2021: Shutting down Derby engine
+----------------------------------------------------------------
+Thu Nov 04 14:47:13 CET 2021:
+Wy³¹czanie instancji a816c00e-017c-eb02-ef99-000036dd5ff4
+----------------------------------------------------------------
