@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Lab2-Derby</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style/css/components.css">
+        <link rel="stylesheet" href="Style/css/icons.css">
+        <link rel="stylesheet" href="Style/css/responsee.css">
+    </head>
+    <body>
+        <div class="box">
+            <h1>Wypisywanie danych z bazy</h1>
+            <form class="customform">
+                <div class="s-12 m-5 l-2 left">
+                    <button type="submit" formaction="./Wypisywanie">Wypisz</button>
+                </div>
+            </form>
+        </div>
+        
+        <div class="box">
+            <h1>Manipulacja danymi</h1>
+            <form class="customform">            
+                Shoe ID
+                <input type="text" placeholder="Shoe ID" name="shoeId">
+                Name
+                <input type="text" placeholder="Name" name="name">
+                Brand
+                <input type="text" placeholder="Brand" name="brand">
+                Type
+                <input type="text" placeholder="Type" name="type">
+                Color
+                <input type="text" placeholder="Color" name="color">
+                <div class="box">
+                    <input type="checkbox" name="madeOfLeather" value="true">
+                    Is made of leather?
+                </div>
+                <div class="box">
+                    <input type="checkbox" name="hasLaces" value="true">
+                    Has laces?
+                </div>
+            
+                <div class="top-nav s-12 l-10">
+                    <div class="s-12 m-6 l-2 left">
+                        <button type="submit" formaction="./Insert">Insert</button>
+                    </div>
+
+                    <div class="s-12 m-6 l-2 left">
+                        <button type="submit" formaction="./Update">Update</button>
+                    </div>
+
+                    <div class="s-12 m-6 l-2 left">
+                        <button type="submit" formaction="./Delete">Delete</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2021-11-15 20:13:18 by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="Trwalosc.Shoes" table="SHOES" schema="STUDENT" optimistic-lock="version">
+        <id name="shoeId" type="int">
+            <column name="SHOE_ID" />
+            <generator class="assigned" />
+        </id>
+        <property name="name" type="string">
+            <column name="NAME" length="20" />
+        </property>
+        <property name="brand" type="string">
+            <column name="BRAND" length="15" />
+        </property>
+        <property name="type" type="string">
+            <column name="TYPE" length="10" />
+        </property>
+        <property name="color" type="string">
+            <column name="COLOR" length="15" />
+        </property>
+        <property name="madeOfLeather" type="java.lang.Boolean">
+            <column name="MADE_OF_LEATHER" />
+        </property>
+        <property name="hasLaces" type="java.lang.Boolean">
+            <column name="HAS_LACES" />
+        </property>
+    </class>
+</hibernate-mapping>

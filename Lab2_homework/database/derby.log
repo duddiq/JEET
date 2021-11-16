@@ -1,0 +1,19 @@
+Tue Nov 16 14:49:18 CET 2021 : Serwer sieciowy Apache Derby - 10.13.1.1 - (1765088) uruchomiony i gotowy do zaakceptowania połączeń na porcie 1527 w {3} 
+----------------------------------------------------------------
+Tue Nov 16 14:49:34 CET 2021:
+ Uruchamianie wersji The Apache Software Foundation - Apache Derby - 10.13.1.1 - (1765088) systemu Derby: instancja a816c00e-017d-2902-53dc-000047e15048
+w katalogu bazy danych /home/student/Desktop/Lab2_homework/database/homework2 sun.misc.Launcher$AppClassLoader@4d7e1886 
+
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_222-8u222-b10-1~deb9u1-b10
+user.dir=/home/student/Payara_Server/javadb
+os.name=Linux
+os.arch=amd64
+os.version=4.9.0-11-amd64
+derby.system.home=/home/student/Desktop/Lab2_homework/database
+Uruchomiono program ładujący klasę bazy danych - derby.database.classpath=''
+----------------------------------------------------------------
+Tue Nov 16 15:09:36 CET 2021: Shutting down Derby engine
+----------------------------------------------------------------
+Tue Nov 16 15:09:36 CET 2021:
+Wyłączanie instancji a816c00e-017d-2902-53dc-000047e15048
