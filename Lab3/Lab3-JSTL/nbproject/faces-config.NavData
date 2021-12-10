@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene Scope="All Faces Configurations" version="2">
+    <Scope Scope="Faces Configuration Only"/>
+    <Scope Scope="Project">
+        <Node id="error.jsp" x="130" y="315" zoom="true"/>
+        <Node id="login.jsp" x="376" y="313" zoom="true"/>
+        <Node id="index.html" x="400" y="150" zoom="true"/>
+        <Node id="listaLudzi.jsp" x="150" y="150" zoom="true"/>
+    </Scope>
+    <Scope Scope="All Faces Configurations">
+        <Node id="error.jsp" x="61" y="391" zoom="true"/>
+        <Node id="login.jsp" x="65" y="260" zoom="true"/>
+        <Node id="listaLudzi.jsp" x="259" y="258" zoom="true"/>
+        <Node id="logout.jsp" x="160" y="132" zoom="true"/>
+    </Scope>
+</Scene>
