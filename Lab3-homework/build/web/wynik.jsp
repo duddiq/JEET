@@ -23,7 +23,7 @@
         <c:import url="results.xml" var="baza"/>
         <x:parse doc="${baza}" var="wynik"/>
         
-        <h:outputText value="Zalogowano użytkownika: #{logowanie.nazwa}" />
+        <%--<h:outputText value="Zalogowano użytkownika: #{logowanie.nazwa}" />--%>
         
         <h1>Obliczona średnia geometryczna</h1>
         <h3><h:outputText value="Średnia geometryczna z #{GeometricMean.number} losowych liczb z zakresu [0; 10) wynosi #{GeometricMean.mean}" /></h3>
@@ -34,7 +34,8 @@
         <h1>Recent results</h1>
         <ol>
             <x:forEach select="$wynik/results/wynik" var="zasob"> 
-                <li><b><x:out select="result"/></b>  
+                <li>
+                    <b><x:out select="result"/></b>  
                 </li>
             </x:forEach>
         </ol>

@@ -5,26 +5,22 @@
  */
 package jsf;
 
-import java.io.IOException;
 import javax.faces.bean.ManagedBean;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
 import java.util.*;
 import javax.xml.transform.*;
 import javax.xml.transform.stream.*;
 import javax.xml.transform.dom.*;
 import org.w3c.dom.*;
 import javax.xml.parsers.*;
-import org.xml.sax.SAXException;
 /**
  *
  * @author student
  */
 @ManagedBean(name="GeometricMean")
 public class GeometricMean {
-    private int number = 5;
+    private final String xmlFile = "/home/student/Desktop/Lab3-homework/web/results.xml";
+    private int number = 5; //default number of random parameters
     private double mean;
 
     public void setMean(double mean) {
@@ -48,7 +44,7 @@ public class GeometricMean {
         
         DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
         DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
-        Document document = documentBuilder.parse("/home/student/Desktop/Lab3-homework/web/results.xml");
+        Document document = documentBuilder.parse(xmlFile);
         
         Element root = document.getDocumentElement();
 
@@ -56,7 +52,6 @@ public class GeometricMean {
         results.add(new Wynik(this.mean));
 
         for (Wynik wynik : results) {
-            // wynik elements
             Element newWynik = document.createElement("wynik");
 
             Element result = document.createElement("result");
@@ -70,7 +65,7 @@ public class GeometricMean {
 
         TransformerFactory transformerFactory = TransformerFactory.newInstance();
         Transformer transformer = transformerFactory.newTransformer();
-        StreamResult result = new StreamResult("/home/student/Desktop/Lab3-homework/web/results.xml");
+        StreamResult result = new StreamResult(xmlFile);
         transformer.transform(source, result);
     }
 
@@ -110,4 +105,3 @@ public class GeometricMean {
         }
     }
 }
-

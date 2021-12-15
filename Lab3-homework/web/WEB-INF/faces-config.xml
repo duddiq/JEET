@@ -45,6 +45,10 @@
             <from-outcome>retry</from-outcome>
             <to-view-id>/login.jsp</to-view-id>
         </navigation-case>
+        <navigation-case>
+            <from-outcome>true</from-outcome>
+            <to-view-id>/logout.jsp</to-view-id>
+        </navigation-case>
     </navigation-rule>
     <navigation-rule>
         <from-view-id>/wynik.jsp</from-view-id>
@@ -84,6 +88,10 @@
         <navigation-case>
             <from-outcome>login</from-outcome>
             <to-view-id>/login.jsp</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>true</from-outcome>
+            <to-view-id>/logout.jsp</to-view-id>
         </navigation-case>
     </navigation-rule>
 </faces-config>

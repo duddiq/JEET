@@ -5,8 +5,8 @@
     <Scope Scope="All Faces Configurations">
         <Node id="error.jsp" x="150" y="300" zoom="true"/>
         <Node id="wynik.jsp" x="650" y="150" zoom="true"/>
-        <Node id="login.jsp" x="150" y="150" zoom="true"/>
         <Node id="entryForm.jsp" x="400" y="150" zoom="true"/>
+        <Node id="login.jsp" x="150" y="150" zoom="true"/>
         <Node id="logout.jsp" x="400" y="300" zoom="true"/>
     </Scope>
 </Scene>
